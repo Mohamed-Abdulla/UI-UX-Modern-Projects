@@ -119,3 +119,14 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #111;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 50, 50);
+}
